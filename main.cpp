@@ -174,12 +174,8 @@ int main(int argc, char** argv) {
 	eyePosition.y = 0.0f;
 	eyePosition.z = cameraDistance;
 
-	std::cout << "Creating geometry" << std::endl;
-
 	createGeometry();
 	
-	std::cout << "Created geometry" << std::endl;
-
 	programId = createShaderProgram("shaders/vertex.glsl", "shaders/fragment.glsl");
 
 	while (!glfwWindowShouldClose(window)) {
