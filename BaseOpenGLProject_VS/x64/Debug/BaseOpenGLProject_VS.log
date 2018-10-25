@@ -1,0 +1,49 @@
+﻿  main.cpp
+d:\winter 2019\csci3090u\csci3090u_baseproject_visualstudio\trackball.hpp(54): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\winter 2019\csci3090u\csci3090u_baseproject_visualstudio\trackball.hpp(55): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\winter 2019\csci3090u\csci3090u_baseproject_visualstudio\trackball.hpp(58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetString referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl keyboard(struct GLFWwindow *,int,int,int,int)" (?keyboard@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "void __cdecl drag(struct GLFWwindow *,double,double)" (?drag@@YAXPEAUGLFWwindow@@NN@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function "void __cdecl drag(struct GLFWwindow *,double,double)" (?drag@@YAXPEAUGLFWwindow@@NN@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl update(void)" (?update@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function main
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDetachShader
+main.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+main.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+main.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewValidateProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+main.obj : error LNK2001: unresolved external symbol __imp___GLEW_VERSION_2_0
+D:\Winter 2019\CSCI3090u\CSCI3090U_BaseProject_VisualStudio\dependencies\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Winter 2019\CSCI3090u\CSCI3090U_BaseProject_VisualStudio\dependencies\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Winter 2019\CSCI3090u\CSCI3090U_BaseProject_VisualStudio\x64\Debug\main.exe : fatal error LNK1120: 42 unresolved externals
